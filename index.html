@@ -13,6 +13,58 @@
   </head>
   <body class="max-w-screen-xl mx-auto">
     <header>
+      <div class="breadcrumbs text-sm">
+        <ul>
+          <li>
+            <a>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                class="h-4 w-4 stroke-current">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z"></path>
+              </svg>
+              Home
+            </a>
+          </li>
+          <li>
+            <a>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                class="h-4 w-4 stroke-current">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z"></path>
+              </svg>
+              Documents
+            </a>
+          </li>
+          <li>
+            <span class="inline-flex items-center gap-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                class="h-4 w-4 stroke-current">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9 13h6m-3-3v6m5 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+              </svg>
+              Add Document
+            </span>
+          </li>
+        </ul>
+      </div>
       <div class="navbar bg-base-100">
         <div class="flex-1">
           <a class="btn btn-ghost text-xl">daisyUI</a>
@@ -68,6 +120,77 @@
               </p>
               <button class="btn btn-primary">Get Started</button>
             </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="card lg:card-side bg-base-100 shadow-xl">
+          <figure>
+            <img
+              src="https://img.daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.webp"
+              alt="Album" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">New album is released!</h2>
+            <p>Click the button to listen on Spotiwhy app.</p>
+            <div class="card-actions justify-end">
+              <button class="btn btn-primary">Listen</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="stats shadow">
+          <div class="stat">
+            <div class="stat-figure text-primary">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                class="inline-block h-8 w-8 stroke-current">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
+              </svg>
+            </div>
+            <div class="stat-title">Total Likes</div>
+            <div class="stat-value text-primary">25.6K</div>
+            <div class="stat-desc">21% more than last month</div>
+          </div>
+
+          <div class="stat">
+            <div class="stat-figure text-secondary">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                class="inline-block h-8 w-8 stroke-current">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+              </svg>
+            </div>
+            <div class="stat-title">Page Views</div>
+            <div class="stat-value text-secondary">2.6M</div>
+            <div class="stat-desc">21% more than last month</div>
+          </div>
+
+          <div class="stat">
+            <div class="stat-figure text-secondary">
+              <div class="avatar online">
+                <div class="w-16 rounded-full">
+                  <img
+                    src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+                </div>
+              </div>
+            </div>
+            <div class="stat-value">86%</div>
+            <div class="stat-title">Tasks done</div>
+            <div class="stat-desc text-secondary">31 tasks remaining</div>
           </div>
         </div>
       </section>
